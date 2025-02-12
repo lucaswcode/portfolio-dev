@@ -20,7 +20,7 @@
 
   /*Fonts*/
   --font-asap: "Asap", serif;
-  --title-tl: 700 3.5rem/120% var(--font-asap);
+  --title-lg: 700 3.5rem/120% var(--font-asap);
   --title-md: 700 1.5rem/120% var(--font-asap);
   --title-sm: 700 1rem/120% var(--font-asap);
 
@@ -30,4 +30,24 @@
   --font-maven: "Maven Pro", serif;
   --text-md: 1rem/140% var(--font-maven);
   --text-sm: .875rem/140% var(--font-maven);
+}
+body {
+  font: var(--text-md);
+  color: var(--gray-500);
+}
+.bg-intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  background: url(../assets/bg-images/Background_Intro.png) 50% / cover no-repeat;
+  padding: 120px 163px 57px 163px
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1040px;
 }
