@@ -34,7 +34,9 @@
 body {
   font: var(--text-md);
   color: var(--gray-500);
+  overflow-x: hidden; 
 }
+
 .bg-intro {
   display: flex;
   align-items: center;
@@ -50,4 +52,18 @@ body {
   justify-content: center;
   align-items: center;
   max-width: 1040px;
+}
+.bg-projects {
+  background-color: var(--gray-200);
+  padding: 72px 120px 144px 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-services {
+  display: flex;
+  justify-content: center;
+  background-color: var(--gray-100);
+  padding: 88px 120px 120px 120px;
 }

@@ -1,0 +1,29 @@
+.services {
+
+  & header {
+    margin-bottom: 56px;
+    & h3 {
+      font: var(--subtitle);
+      color: var(--red);
+    }
+    h2 {
+      font: var(--title-md);
+      color: var(--gray-600);
+      margin-top: 8px;
+    }
+  }
+}
+.services-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+
+  & div {
+    border-radius: 12px;
+    border: 2px solid var(--gray-500);
+    gap: 1.5rem;
+    padding: 20px;
+  }
+}
