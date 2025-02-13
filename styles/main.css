@@ -28,7 +28,9 @@ main {
     background-color: var(--gray-300);
     border-radius: 12px;
     padding: 12px;
-
+     &:hover {
+      border: 1.5px solid var(--gray-400);
+     }
     & img {
       width: 306px;
       height: 156px;
